@@ -23,5 +23,27 @@ The **Gym AI Pose Detection** project is an AI-powered application that detects 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/gym-ai-pose-detection
+   git clone  https://github.com/Hemaaaaaaaaaa/Gym-AI-Pose-Detection
    cd gym-ai-pose-detection
+
+2.  Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+## Usage
+
+1. Run the Flask application:
+python app.py
+
+2. Open your browser and navigate to http://127.0.0.1:5000 to access the web interface.
+
+3. Start performing exercises in front of your webcam, and the system will automatically detect your movements, provide feedback, and count reps.
+
+## Contributing
+Feel free to fork this repository, submit issues, and send pull requests to enhance the project further.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
